@@ -17,4 +17,4 @@ I preemptively apologize for the mess that is this code, ask me to clarify anyth
 
 ## The speed
 
-In my testing I use a ~10 megabyte text file that I scraped from some twitch streams. This program is able to process that file in less than 3 minutes. I would say that is pretty fast
+In my testing I use a ~10 megabyte text file that I scraped from some twitch streams. This program is able to process that file in less than 3 minutes. I would say that is pretty fast. I have not implemented multithreading yet but I have done vectorization.
