@@ -301,7 +301,7 @@ int main()
 	{
 		if (queue.num_defs == 0)
 		{
-    		rsb.i = 0;
+			rsb.i = 0;
 
 			timer_start();
 			push_all_pairs(length, tokens);
@@ -320,7 +320,7 @@ int main()
 		}
 		else
 		{
-    		rsb.i = 0;
+			rsb.i = 0;
 
 			assert(num_defs > 0);
 			PairDef prev_max = defs[num_defs-1];
