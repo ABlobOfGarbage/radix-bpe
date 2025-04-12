@@ -13,6 +13,9 @@ It doesn't just keep track of the single most frequent pair, instead it keeps tr
 
 It doesn't take command line arguments, if you want to change where it reads/writes input/results to you have to change the code yourself.
 
+I compile with
+> gcc -Wall -Wextra -O3 -march=native main.c
+
 I preemptively apologize for the mess that is this code, ask me to clarify anything and I will try my best to. Also I don't really use git so I'm sure I've done something wrong here too but whatever.
 
 ## The speed
